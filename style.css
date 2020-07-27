@@ -1,0 +1,63 @@
+#main-header img {
+    width: 100%;
+    height: auto;
+}
+
+#main-header .bg-black {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+
+#main-header .menu-item {
+    width: 30%;
+}
+
+#main-header .menu-item:hover {
+    opacity: 0.8;
+    cursor: pointer ;
+}
+
+#home .bg-success {
+    background: rgb(0, 174, 255);
+}
+
+
+
+@media(max-width:768px) {
+    #main-header img {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media(min-width:768px) {
+    #main-header img {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+
+
+@media(min-width:992px) {
+    #main-header img {
+        width: 100%;
+        height: 89.5%;
+    }
+    
+}
+
+
+
+@media(min-width:1199px) {
+    .menu-item {
+        padding: 2.85rem !important;
+    }
+}
+
+
